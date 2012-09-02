@@ -50,6 +50,7 @@ function showLoginWin() {
 	var login_win = new Ext.Window({
 		renderTo: Ext.getBody(),
 		title: 'Login',
+		width: 300,
 		modal: true,
 		closable: false,
 		draggable: false,
