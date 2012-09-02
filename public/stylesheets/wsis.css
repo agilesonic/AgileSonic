@@ -1,0 +1,21 @@
+.main-header {
+	height: 80px;
+}
+
+.main-header h1 {
+	font-size: 2em;
+	display: inline;
+}
+
+.main-header .topnav {
+	float:right;
+	height:20px;
+	width: 200px;
+	text-align:right;
+	padding: 4px 4px 0 0;
+}
+
+.main-footer {
+	margin: 0 auto;
+	text-align: center;
+}

@@ -1,0 +1,14 @@
+<section data-role="page" id="index_page">
+	<%= render(:partial => "header") %>
+
+	<div data-role="content" class="mobile-content">
+		<%= form_tag :action => 'search', :id => 'domain_search' do %>
+			<div data-role='controlgroup' data-type='horizontal'>
+				<%= text_field_tag 'domain_name', '', :placeholder => 'Enter domain name', :"data\-inline" => true, :style => 'display: inline-block; width: 80%; height: 25px'%>
+				<%= submit_tag 'Search', :"data\-inline" => true, :"data\-theme" => 'e' %>
+			</div>
+		<% end %>
+	</div>
+
+	<%= render(:partial => "footer") %>
+</section>

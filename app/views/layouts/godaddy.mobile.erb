@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cloud based software services, Agile Sonic</title>
+  <meta name="description" content="Agile software engineering for cloud based software services" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+  <link rel="shortcut icon" href="/images/favicon.ico"/>
+  <%= javascript_include_tag "date.js" %>
+  <%= stylesheet_link_tag    "jquery.mobile-css-1.1.0" %>
+  <%= stylesheet_link_tag    "godaddy" %>
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="js/html5shiv.js"></script>
+  <![endif]-->
+  <%= javascript_include_tag "jquery-1.7.2.min" %>
+  <script type="text/javascript">
+	$(document).bind("mobileinit", function(){
+	  $.mobile.touchOverflowEnabled = true;
+	});
+  </script>
+  <%= javascript_include_tag "jquery.mobile-js-1.1.0" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

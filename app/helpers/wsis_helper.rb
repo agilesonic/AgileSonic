@@ -1,0 +1,2 @@
+module WsisHelper
+end

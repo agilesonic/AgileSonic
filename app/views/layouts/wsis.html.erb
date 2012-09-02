@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="/images/favicon.ico"/>
+  <title>White Shark Informaiton System</title>
+  <%= stylesheet_link_tag    "ext-all.css" %>
+  <%= stylesheet_link_tag    "wsis" %>
+  <%= javascript_include_tag "jquery-1.7.2.min" %>
+  <%= javascript_include_tag "adapter/ext/ext-base" %>
+  <%= javascript_include_tag "ext-all" %>
+  <%= javascript_include_tag "wsis" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
