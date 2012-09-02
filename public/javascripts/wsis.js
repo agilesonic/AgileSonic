@@ -21,7 +21,7 @@ function mainLayout() {
 	        margins: '0 0 5 0',
 	    }, {
 	        region: 'south',
-	        html: '<h2 class="x-panel-header main-footer">&Copy; Copyright Richard Yin, 2012</h2>',
+	        html: '<h2 class="x-panel-header main-footer">&Copy; Copyright AgileSonic Corp., 2012</h2>',
 	        autoHeight: true,
 	        border: false
 	    }, {
