@@ -21,7 +21,6 @@ class WsisController < ApplicationController
   
   def smartSearch
     key = params['key']
-    puts "Key *** " + key
     clients = Client.search(key)
     render :json => {
       :success => true,
