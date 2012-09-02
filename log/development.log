@@ -1726,3 +1726,12 @@ Started GET "/wsis/smartSearch?_dc=1346598669945&key=Admiral" for 127.0.0.1 at 2
   Parameters: {"_dc"=>"1346598669945", "key"=>"Admiral"}
   [1m[36mClient Load (447.1ms)[0m  [1mSELECT `cfinfo`.* FROM `cfinfo` WHERE (lastname like '%Admiral%' or firstname like '%Admiral%' or address like '%Admiral%') ORDER BY lastname, firstname[0m
 Completed 200 OK in 1295ms (Views: 484.3ms | ActiveRecord: 739.5ms)
+
+
+Started GET "/wsis" for 127.0.0.1 at 2012-09-02 11:29:51 -0400
+
+
+Started GET "/wsis" for 127.0.0.1 at 2012-09-02 11:38:32 -0400
+  Processing by WsisController#index as HTML
+Rendered wsis/index.html.erb within layouts/wsis (59.0ms)
+Completed 200 OK in 483ms (Views: 472.7ms | ActiveRecord: 0.0ms)
